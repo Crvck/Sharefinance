@@ -4,16 +4,25 @@
 
 # node
 node_modules/
+sharedfinance-mobile/node_modules/
+sharedfinance-mobile/.expo/
+sharedfinance-mobile/.expo-shared/
 
 # vscode
 .vscode/
 
-# whatsapp session
+# whatsapp session and bot data
 nanobot-service/data/
 **/session/
 **/CacheStorage/
 
+# databases
+auth-service/data/
+finance-service/data/
+*.sqlite3
+
 # python
+.venv/
 __pycache__/
 *.pyc
 
