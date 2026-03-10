@@ -1,0 +1,24 @@
+# env
+.env
+.env.*
+
+# node
+node_modules/
+
+# vscode
+.vscode/
+
+# whatsapp session
+nanobot-service/data/
+**/session/
+**/CacheStorage/
+
+# python
+__pycache__/
+*.pyc
+
+# logs
+*.log
+
+# runtime
+*.ctl
